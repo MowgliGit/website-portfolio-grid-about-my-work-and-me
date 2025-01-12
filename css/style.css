@@ -1,11 +1,14 @@
-body{
+body {
   max-width: 1300px;
   margin: 0 auto;
 }
+.blocks {
+  width: 100%;
+}
 #main-header img {
   width: 100%;
-  
-  height: 100%; 
+
+  height: 100%;
 }
 
 #main-header .port-item {
@@ -20,7 +23,7 @@ body{
 .bg-black {
   color: #fff;
   background: #000;
-} 
+}
 /* #contact i{
   color: red;
 } */
@@ -35,3 +38,48 @@ body{
   }
 }
 
+.name-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* For screens smaller than 768px */
+/* General Flexbox Styling for Port Items */
+/* General Flexbox Styling for Port Items */
+/* General Flexbox Styling for Port Items */
+.port-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+  justify-content: space-between; /* Space out items evenly */
+}
+
+.port-item {
+  flex: 1 1 25%; /* Take up 25% of the row */
+  box-sizing: border-box; /* Include padding and border in size calculations */
+  text-align: center; /* Center-align content */
+  padding: 10px 0; /* Only vertical padding to keep items touching each other horizontally */
+  margin: 0; /* Remove any margin between items */
+}
+
+/* Adjust Icon and Text for Better Responsiveness */
+.port-item i {
+  font-size: 1.5rem; /* Adjust icon size for smaller devices */
+}
+
+.port-item span {
+  font-size: 0.9rem; /* Reduce text size slightly */
+}
+
+/* Mobile-specific Adjustments */
+@media (max-width: 768px) {
+  .port-section {
+    justify-content: space-between; /* Distribute items evenly */
+  }
+
+  .port-item {
+    flex: 1 1 25%; /* Ensure items still occupy 25% */
+    padding: 5px 0; /* Adjust padding for smaller screens */
+    margin: 0; /* Ensure no margin between items */
+  }
+}

@@ -39,70 +39,89 @@
             <div class="d-flex flex-column">
               <div class="p-5 bg-dark text-white">
                 <div
-                  class="d-flex flex-row justify-content-between align-items-center"
+                  class="d-flex flex-row flex-wrap justify-content-between align-items-center"
                 >
-                  <h1>Marina Jovanova</h1>
-                  <div>
-                    <a href="https://github.com/MowgliGit" class="text-white">
-                      <i class="fab fa-github fa-2x mr-3"></i>
-                    </a>
+                  <!-- Name Section -->
+                  <div
+                    class="col-md-7 d-flex flex-row justify-content-between align-items-center"
+                  >
+                    <h1 class="pb-3">Marina Jovanova</h1>
                   </div>
-                  <div>
-                    <a
-                      href="https://app.netlify.com/teams/marina-jovanova17/sites"
-                      class="text-white"
-                    >
-                      <i class="fas fa-user-circle fa-2x mr-3"></i>
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      href="https://www.instagram.com/mowgli_codding/?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D"
-                      class="text-white"
-                    >
-                      <i class="fab fa-instagram fa-2x mr-3"></i>
-                    </a>
+
+                  <!-- Icons Section -->
+                  <div
+                    class="col-md-4 d-flex flex-row justify-content-center align-items-center icons-group"
+                  >
+                    <div>
+                      <a href="https://github.com/MowgliGit" class="text-white">
+                        <i class="fab fa-github fa-2x mr-3"></i>
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href="https://app.netlify.com/teams/marina-jovanova17/sites"
+                        class="text-white"
+                      >
+                        <i class="fas fa-user-circle fa-2x mr-3"></i>
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href="https://www.instagram.com/mowgli_codding/?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D"
+                        class="text-white"
+                      >
+                        <i class="fab fa-instagram fa-2x mr-3"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
+
               <div class="p-5 bg-black">
                 <h3>Front End Web Developer</h3>
               </div>
-              <div>
+              <div class="blocks">
                 <div
-                  class="d-flex flex-row text-white align-items-stretch text-center"
+                  class="d-flex flex-row flex-wrap text-white align-items-stretch text-center port-section"
                 >
+                  <!-- Home -->
                   <div
                     class="port-item p-4 bg-primary"
                     data-toggle="collapse"
                     data-target="#home"
                   >
                     <i class="fas fa-home fa-3x d-block"></i>
-                    <span class="d-none s-sm-block">Home</span>
+                    <span class="d-none d-sm-block">Home</span>
                   </div>
+
+                  <!-- Resume -->
                   <div
                     class="port-item p-4 bg-success"
                     data-toggle="collapse"
                     data-target="#resume"
                   >
                     <i class="fas fa-graduation-cap fa-3x d-block"></i>
-                    <span class="d-none s-sm-block">Resume</span>
+                    <span class="d-none d-sm-block">Resume</span>
                   </div>
+
+                  <!-- Work -->
                   <div
                     class="port-item p-4 bg-warning"
                     data-toggle="collapse"
                     data-target="#work"
                   >
                     <i class="fas fa-folder-open fa-3x d-block"></i>
-                    <span class="d-none s-sm-block">Work</span>
+                    <span class="d-none d-sm-block">Work</span>
                   </div>
+
+                  <!-- Contact -->
                   <div
                     class="port-item p-4 bg-danger"
                     data-toggle="collapse"
                     data-target="#contact"
                   >
                     <i class="fas fa-envelope fa-3x d-block"></i>
-                    <span class="d-none s-sm-block">Contact</span>
+                    <span class="d-none d-sm-block">Contact</span>
                   </div>
                 </div>
               </div>
@@ -155,6 +174,10 @@
           <h4>JavaScript</h4>
           <div class="progress mb-3">
             <div class="progress-bar bg-success" style="width: 60%"></div>
+          </div>
+          <h4>React</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 50%"></div>
           </div>
         </div>
       </div>
@@ -227,11 +250,127 @@
             Bootstrap and JavaScript, ensuring seamless user experiences with
             interactive features and modern designs.
           </p>
+          <hr />
           <div class="row">
             <div class="col-md-3 mb-5">
               <h6 class="text-muted text-uppercase mb-3">
-                Website for Shelter
+                Nonprofit organization
               </h6>
+              <a
+                href="https://mowgligit.github.io/CharitoNonProfit/"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/charito.png"
+                  class="img-fluid rounded"
+                  alt="image of website charito"
+                />
+              </a>
+            </div>
+
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase text-dark mb-3">
+                spase Tourism
+              </h6>
+              <a
+                href="https://mowgligit.github.io/spaseTourismWebsite"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/space.png"
+                  class="img-fluid rounded"
+                  alt="image of space"
+                />
+              </a>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase mb-3">Ecommerce product</h6>
+              <a
+                href="https://mowgligit.github.io/E-commerce-product/"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/ecommerce.png"
+                  class="img-fluid rounded"
+                  alt="image of ecommerce"
+                />
+              </a>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase mb-3">Blogr Landing page</h6>
+              <a
+                href="https://mowgligit.github.io/website-blogr-landing-page-/"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/bloglanding.png"
+                  class="img-fluid rounded"
+                  alt="image of blogr landing"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase mb-3">soy-candles</h6>
+              <a
+                href="https://mowgligit.github.io/website-for-homemade-soy-candles/"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/soy candel.png"
+                  class="img-fluid rounded"
+                  alt="image of soy-candles"
+                />
+              </a>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase text-dark mb-3">
+                rattan-pouffe-stool
+              </h6>
+              <a
+                href="https://mowgligit.github.io/website-for-rattan-pouffe-stool-website/"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/rattan chair.png"
+                  class="img-fluid rounded"
+                  alt="image of space"
+                />
+              </a>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase text-dark mb-3">Raw meal</h6>
+              <a
+                href="https://mowgligit.github.io/website-for-raw-meals/"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/raw.png"
+                  class="img-fluid rounded"
+                  alt="image of space"
+                />
+              </a>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase text-dark mb-3">blog</h6>
+              <a
+                href="https://mowgligit.github.io/website-blog/"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="./img/blog.png"
+                  class="img-fluid rounded"
+                  alt="image of space"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 mb-5">
+              <h6 class="text-muted text-uppercase mb-3">Animal Shelter</h6>
               <a
                 href="https://website-for-animal-shelter.netlify.app/"
                 data-toggle="lightbox"
@@ -246,7 +385,7 @@
 
             <div class="col-md-3 mb-5">
               <h6 class="text-muted text-uppercase text-dark mb-3">
-                Website for Skin Care
+                Skin Care
               </h6>
               <a
                 href="https://website-for-skin-care.netlify.app/"
@@ -275,7 +414,7 @@
               </a>
             </div>
             <div class="col-md-3 mb-5">
-              <h6 class="text-muted text-uppercase mb-3">Website for Meals</h6>
+              <h6 class="text-muted text-uppercase mb-3">healthy Meals</h6>
               <a
                 href="https://website-for-healthy-meal.netlify.app/"
                 data-toggle="lightbox"
@@ -290,9 +429,7 @@
           </div>
           <div class="row">
             <div class="col-md-3 mb-5">
-              <h6 class="text-muted text-uppercase text-dark mb-3">
-                Website Herbs
-              </h6>
+              <h6 class="text-muted text-uppercase text-dark mb-3">Herbs</h6>
               <a
                 href="https://website-for-herbs.netlify.app/"
                 data-toggle="lightbox"
@@ -305,9 +442,7 @@
               </a>
             </div>
             <div class="col-md-3 mb-5">
-              <h6 class="text-muted text-uppercase mb-3">
-                Website for Nat.Deodorant
-              </h6>
+              <h6 class="text-muted text-uppercase mb-3">Natural Deodorant</h6>
               <a
                 href="https://website-for-natural-antiperspirant.netlify.app/"
                 data-toggle="lightbox"
@@ -320,7 +455,7 @@
               </a>
             </div>
             <div class="col-md-3 mb-5">
-              <h6 class="text-muted text-uppercase mb-3">Website for Soap</h6>
+              <h6 class="text-muted text-uppercase mb-3">Soap homemade</h6>
               <a
                 href="https://website-for-soap.netlify.app/"
                 data-toggle="lightbox"
@@ -333,9 +468,7 @@
               </a>
             </div>
             <div class="col-md-3 mb-5">
-              <h6 class="text-muted text-uppercase mb-3">
-                Website for Mountain
-              </h6>
+              <h6 class="text-muted text-uppercase mb-3">Mountain exploring</h6>
               <a
                 href="https://website-for-mountain-project.netlify.app/"
                 data-toggle="lightbox"
