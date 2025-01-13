@@ -108,7 +108,7 @@ a {
     margin: 0 !important;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 320px) {
   .myname {
     display: flex;
     justify-content: flex-start !important;
