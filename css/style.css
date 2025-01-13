@@ -7,39 +7,25 @@ body {
 }
 #main-header img {
   width: 100%;
-
   height: 100%;
 }
-
 #main-header .port-item {
   width: 30%;
 }
-
 #main-header .port-item:hover {
   opacity: 0.8;
   cursor: pointer;
 }
-
 .bg-black {
   color: #fff;
   background: #000;
 }
-/* #contact i{
-  color: red;
-} */
 a {
   text-decoration: none;
 }
 #work .col-md-3 h6 {
   border-bottom: 1px solid #999;
 }
-
-@media (min-width: 1199px) {
-  .port-item {
-    padding: 3em !important;
-  }
-}
-
 .name-icons {
   display: flex;
   flex-direction: row;
@@ -48,40 +34,77 @@ a {
 }
 /* For screens smaller than 768px */
 /* General Flexbox Styling for Port Items */
-/* General Flexbox Styling for Port Items */
-/* General Flexbox Styling for Port Items */
+
 .port-section {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping if necessary */
-  justify-content: space-between; /* Space out items evenly */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .port-item {
-  flex: 1 1 25%; /* Take up 25% of the row */
-  box-sizing: border-box; /* Include padding and border in size calculations */
-  text-align: center; /* Center-align content */
-  padding: 10px 0; /* Only vertical padding to keep items touching each other horizontally */
-  margin: 0; /* Remove any margin between items */
+  flex: 1 1 25%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
 }
 
 /* Adjust Icon and Text for Better Responsiveness */
 .port-item i {
-  font-size: 1.5rem; /* Adjust icon size for smaller devices */
+  font-size: 1.5rem;
 }
 
 .port-item span {
-  font-size: 0.9rem; /* Reduce text size slightly */
+  font-size: 0.9rem;
+}
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
 }
 
 /* Mobile-specific Adjustments */
 @media (max-width: 768px) {
   .port-section {
-    justify-content: space-between; /* Distribute items evenly */
+    justify-content: space-between;
   }
 
   .port-item {
-    flex: 1 1 25%; /* Ensure items still occupy 25% */
-    padding: 5px 0; /* Adjust padding for smaller screens */
-    margin: 0; /* Ensure no margin between items */
+    flex: 1 1 25%;
+    padding: 5px 0;
+    margin: 0;
+  }
+}
+@media (max-width: 468px) {
+  .myname {
+    display: flex;
+    justify-content: flex-start !important;
+    text-align: start !important;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 32px !important;
+  }
+  .myproff {
+    display: flex;
+    justify-content: flex-start !important;
+    text-align: start !important;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 26px !important;
+  }
+  .icons-group {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .iconcv {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .myemail {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
