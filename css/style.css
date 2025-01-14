@@ -88,7 +88,7 @@ p {
     display: flex;
     justify-content: flex-start !important;
     text-align: start !important;
-    width: 100% !important;
+    max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
     font-size: 30px !important;
@@ -119,15 +119,15 @@ p {
     font-size: 14px !important;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 355px) {
   .myname {
     display: flex;
     justify-content: flex-start !important;
     text-align: start !important;
-    width: 100% !important;
+    max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    font-size: 30px !important;
+    font-size: 27px !important;
   }
   .myproff {
     display: flex;
@@ -137,6 +137,42 @@ p {
     padding: 0 !important;
     margin: 0 !important;
     font-size: 24px !important;
+  }
+  .icons-group {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .iconcv {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .myemail {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .footer {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 330px) {
+  .myname {
+    display: flex;
+    justify-content: flex-start !important;
+    text-align: start !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 25px !important;
+  }
+  .myproff {
+    display: flex;
+    justify-content: flex-start !important;
+    text-align: start !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 20px !important;
   }
   .icons-group {
     margin-top: 25px;
