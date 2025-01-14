@@ -119,7 +119,7 @@ p {
     font-size: 14px !important;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 330px) {
   .myname {
     display: flex;
     justify-content: flex-start !important;
