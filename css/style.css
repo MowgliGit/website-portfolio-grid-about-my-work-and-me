@@ -62,6 +62,21 @@ p {
 .port-item span {
   font-size: 0.9rem;
 }
+/* @media (max-width: 1200px) {
+  .myname {
+    display: flex;
+    justify-content: flex-start !important;
+    text-align: start !important;
+    width: 300px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 35px !important;
+  }
+  .fas,
+  .fab {
+    font-size: 26px !important;
+  }
+} */
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important;
@@ -102,9 +117,10 @@ p {
     margin: 0 !important;
     font-size: 24px !important;
   }
-  .icons-group {
+  .icons-group > div {
     margin-top: 25px;
     font-size: 16px;
+    text-align: center !important;
   }
   .iconcv {
     margin-top: 25px;
@@ -136,11 +152,16 @@ p {
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    font-size: 24px !important;
+    font-size: 22px !important;
   }
-  .icons-group {
+  .icons-group > div {
     margin-top: 25px;
     font-size: 16px;
+    text-align: center !important;
+  }
+  .fas,
+  .fab {
+    font-size: 22px !important;
   }
   .iconcv {
     margin-top: 25px;
@@ -155,7 +176,7 @@ p {
     font-size: 12px !important;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 335px) {
   .myname {
     display: flex;
     justify-content: flex-start !important;
