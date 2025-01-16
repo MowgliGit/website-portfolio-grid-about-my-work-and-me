@@ -1,6 +1,15 @@
 body {
   max-width: 1300px;
   margin: 0 auto;
+  hyphens: auto;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; /
+}
+p,
+h1,h2,h3,h5,h6{
+  hyphens: auto;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
 }
 .blocks {
   width: 100%;
@@ -45,7 +54,6 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .port-item {
   flex: 1 1 25%;
   box-sizing: border-box;
@@ -53,49 +61,57 @@ p {
   padding: 10px 0;
   margin: 0;
 }
-
 /* Adjust Icon and Text for Better Responsiveness */
 .port-item i {
-  font-size: 1.5rem;
+  font-size: 30px;
 }
-
+i{
+  font-size: 30px!important;
+}
 .port-item span {
   font-size: 0.9rem;
 }
-/* @media (max-width: 1200px) {
-  .myname {
-    display: flex;
-    justify-content: flex-start !important;
-    text-align: start !important;
-    width: 300px !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    font-size: 35px !important;
-  }
-  .fas,
-  .fab {
-    font-size: 26px !important;
-  }
-} */
+.myemail{
+  font-size: 22px;
+  font-weight: 300;
+  padding: 5px 5px;
+}
+.footer{
+  font-size: 14px;
+  font-weight: 300;
+}
+/* responsive */
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important;
   }
-  .footer {
-    font-size: 16px;
-  }
 }
-
 /* Mobile-specific Adjustments */
 @media (max-width: 768px) {
   .port-section {
     justify-content: space-between;
   }
-
-  .port-item {
+  .port-item i {
     flex: 1 1 25%;
     padding: 5px 0;
     margin: 0;
+    font-size: 24px!important;
+  }
+  i{
+    font-size: 24px!important;
+  }
+  .myemail {
+    width: 100%;
+   
+    padding:  0 !important;
+    margin: 0 !important;
+  }
+  .footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
   }
 }
 @media (max-width: 468px) {
@@ -106,7 +122,8 @@ p {
     max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    font-size: 30px !important;
+    font-size: 32px !important;
+    letter-spacing: 0.5px;
   }
   .myproff {
     display: flex;
@@ -115,16 +132,20 @@ p {
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    font-size: 24px !important;
+    font-size: 26px !important;
   }
-  .icons-group > div {
-    margin-top: 25px;
-    font-size: 16px;
-    text-align: center !important;
+  .cv{
+    font-size: 23px;
   }
-  .iconcv {
-    margin-top: 25px;
-    font-size: 16px;
+ 
+  .mypage{
+    font-size: 33px;
+  }
+  .port-item i {
+    flex: 1 1 25%;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 22px!important;
   }
   .myemail {
     width: 100%;
@@ -135,38 +156,46 @@ p {
     font-size: 14px !important;
   }
 }
-@media (max-width: 355px) {
+/*  */
+@media (max-width: 380px) {
   .myname {
-    display: flex;
-    justify-content: flex-start !important;
-    text-align: start !important;
-    max-width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    font-size: 27px !important;
+    font-size: 29px !important;
+    margin-bottom: 8px!important;
   }
   .myproff {
-    display: flex;
-    justify-content: flex-start !important;
-    text-align: start !important;
-    width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    font-size: 24px !important;
+  }
+  .mypage{
+    font-size: 27px;
+  }
+  .port-item i {
+    flex: 1 1 25%;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 20px!important;
+  }
+ 
+}
+/*  */
+@media (max-width: 355px) {
+  .mypage{
+    font-size: 28px;
+  }
+  .myname {
+    font-size: 26px !important;
+    margin-bottom: 8px!important;
+  }
+  .myproff {
     font-size: 22px !important;
   }
-  .icons-group > div {
-    margin-top: 25px;
-    font-size: 16px;
+  .cv{
+    font-size: 20px;
+  }
+ i {
+    font-size: 10px;
     text-align: center !important;
   }
-  .fas,
-  .fab {
-    font-size: 22px !important;
-  }
-  .iconcv {
-    margin-top: 25px;
-    font-size: 16px;
-  }
+ 
   .myemail {
     width: 100%;
     padding: 0 !important;
@@ -176,33 +205,20 @@ p {
     font-size: 12px !important;
   }
 }
+/*  */
 @media (max-width: 335px) {
   .myname {
-    display: flex;
-    justify-content: flex-start !important;
-    text-align: start !important;
-    max-width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    font-size: 25px !important;
+    font-size: 24px !important;
+    margin-bottom: 8px!important;
   }
   .myproff {
-    display: flex;
-    justify-content: flex-start !important;
-    text-align: start !important;
-    width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
     font-size: 20px !important;
   }
-  .icons-group {
-    margin-top: 25px;
-    font-size: 16px;
+  .mypage{
+    font-size: 26px;
   }
-  .iconcv {
-    margin-top: 25px;
-    font-size: 16px;
-  }
+ 
+  
   .myemail {
     width: 100%;
     padding: 0 !important;
