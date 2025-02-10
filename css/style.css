@@ -1,9 +1,13 @@
 body {
-  max-width: 1300px;
+  max-width: 1550px;
   margin: 0 auto;
   hyphens: auto;
   word-wrap: break-word; 
   overflow-wrap: break-word; /
+}
+.container{
+  max-width: 1250px;
+  margin: 0 auto;
 }
 p,
 h1,h2,h3,h5,h6{
