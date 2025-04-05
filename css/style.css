@@ -15,6 +15,9 @@ h1,h2,h3,h5,h6{
   word-wrap: break-word; 
   overflow-wrap: break-word; 
 }
+h6{
+  color: #230cd0!important;
+}
 .blocks {
   width: 100%;
 }
